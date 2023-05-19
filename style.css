@@ -1,0 +1,67 @@
+body{
+      background-image: url("./img/plane.jpg");
+      background-size: cover;
+      text-align: center;
+      color: black;
+      height: 100vh;
+      font-family: 'Pathway Extreme', sans-serif;
+}
+
+button {
+      border: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: white;
+      font-weight: bold;
+      width: 200px;
+      margin: 10px;
+      border-radius: 5px;
+      font-size: 18px;
+      font-family: 'Pathway Extreme', sans-serif;
+  }
+
+#count{
+      font-size: 65px;
+      margin: 30px 0;
+}
+
+#increment-btn {
+      background: #379237;
+}
+#increment-btn:hover {
+      background: rgb(1, 95, 21);
+      cursor: pointer;
+}
+
+#save-btn {
+      background: #379237;
+}
+#save-btn:hover {
+      background: rgb(1, 95, 21);
+      cursor: pointer;
+}
+
+#glass{
+      background: rgba(255, 255, 255, 0.18);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(8.2px);
+      -webkit-backdrop-filter: blur(8.2px);
+      border: 1px solid rgba(255, 255, 255, 1);
+      max-width: 600px;
+      margin: 100px auto 0;
+      padding: 30px;
+}
+
+#previous{
+      margin: 30px 0;
+      font-size: 18px;
+      font-weight: bold;
+}
+#reset-btn{
+      background: #2B3467;
+      cursor: pointer;
+}
+#reset-btn:hover{
+      background-color: #00235B;
+}
